@@ -10,6 +10,17 @@
     }
 
     // JavaScript 💩
+    function jsFetchNum(id) {
+        // code ...
+        // code ...
+        // code ...
+        return new Promise((resolve, reject) => {
+            resolve(100);
+        });
+    }
+
+    // TypeScript
+    // tip) id는 보통 string으로 많이 씀
     function fetchNum(id: string): Promise<number> {
         // code ...
         // code ...
