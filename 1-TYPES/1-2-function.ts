@@ -32,12 +32,11 @@
 
     // JavaScript => TypeScript
     // Optional parameter
-    // lastName: 전달 받을 수도 있고 받지 않을 수도 있다.
     function printName(firstName: string, lastName?: string) { 
         console.log(firstName);
         console.log(lastName);
     }
-
+    // lastName: 전달 받을 수도 있고 받지 않을 수도 있다.
     printName('Steve', 'Jobs');
     printName('Ellie');
     printName('Anna', undefined);
