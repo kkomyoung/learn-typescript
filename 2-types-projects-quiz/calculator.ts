@@ -21,6 +21,7 @@ const calculate = (command: Command, a: number, b: number):number => {
 
 }
 
+
 console.log(calculate('add', 1, 3)); // 4
 console.log(calculate('substract', 3, 1)); // 2
 console.log(calculate('multiply', 4, 2)); // 8
